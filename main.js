@@ -21,9 +21,15 @@ while ( i<nome.length){
     console.log(i);
 console.log(nome[i]);
 i=i+1;
+}
 for(let i=0; i< nome.length;i++){
 console.log(i);
 console.log(nome[i]);
 
 
+}
+
+else{
+
+    console.log('ilegal dirigir')
 }
