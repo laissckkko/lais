@@ -17,8 +17,13 @@ document.write('A média dos tres valores é: '${resultado})
 
 let nome = ['lais', 'arthur', 'adam', 'maria eduarda', 'andrew',' luis', 'luiz',' joao', 'vinicius', 'danilo', 'ana', 'giovana',' nicolas', 'monise', 'caio', 'caio henry', 'arthur h', 'felipe', 'acacio', 'lucas']
 let i = 0,
-while ( i<10){
+while ( i<nome.length){
     console.log(i);
 console.log(nome[i]);
 i=i+1;
+for(let i=0; i< nome.length;i++){
+console.log(i);
+console.log(nome[i])
+
+
 }
